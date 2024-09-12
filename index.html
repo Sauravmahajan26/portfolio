@@ -28,7 +28,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="overflow-x-hidden font-Outfit leading-8">
+  <body class="overflow-x-hidden font-Outfit leading-8 b">
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80]">
       <img src="./images/header-bg-color.png" alt="" class="w-full" />
     </div>
@@ -46,7 +46,6 @@
       >
         <li><a href="#top">Home</a></li>
         <li><a href="#about">About me</a></li>
-        <li><a href="#services">Services</a></li>
         <li><a href="#work">My Work</a></li>
         <li><a href="#contact">Contact me</a></li>
       </ul>
@@ -76,7 +75,6 @@
 
         <li><a href="#top" onclick="closeMenu()">Home</a></li>
         <li><a href="#about" onclick="closeMenu()">About me</a></li>
-        <li><a href="#services" onclick="closeMenu()">Services</a></li>
         <li><a href="#work" onclick="closeMenu()">My Work</a></li>
         <li><a href="#contact" onclick="closeMenu()">Contact me</a></li>
       </ul>
@@ -155,16 +153,16 @@
 
           <ul class="grid grid-cols-1 sm:grid-cols-auto gap-6 max-w-2xl">
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
               <img src="./images/code-icon.png" class="w-7 mt-3" />
               <h3 class="my-4 font-semibold text-gray-700">Languages</h3>
               <p class="text-gray-600 text-sm">
-                HTML, CSS, JavaScript, React.Js
+                HTML, CSS, JavaScript, React.Js, Java, SpringBoot, MySQL
               </p>
             </li>
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="relative border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
               <img src="./images/edu-icon.png" class="w-7 mt-3" />
               <h3 class="my-4 font-semibold text-gray-700">Education</h3>
@@ -172,12 +170,21 @@
                 PG-Diploma in Advance Computing
               </p>
             </li>
+
             <li
-              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+              class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#808080]"
             >
               <img src="./images/project-icon.png" class="w-7 mt-3" />
               <h3 class="my-4 font-semibold text-gray-700">Project</h3>
-              <p class="text-gray-600 text-sm">Build more than 5 projects</p>
+              <p class="text-gray-600 text-sm">
+                Projects -
+                <a
+                  href="https://github.com/Sauravmahajan26"
+                  target="_blank"
+                  class="text-zinc-700 underline hover:underline-offset-2 hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
+                  >Github</a
+                >
+              </p>
             </li>
           </ul>
           <h4 class="my-6 text-gray-700 font-Ovo">Tools I use</h4>
@@ -190,12 +197,12 @@
             <li
               class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
-              <img src="./images/firebase.png" class="w-5 sm:w-7" />
+              <img src="./images/bootstrap.png" class="w-5 sm:w-7" />
             </li>
             <li
               class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
             >
-              <img src="./images/mongodb.png" class="w-5 sm:w-7" />
+              <img src="./images/mysql.png" class="w-5 sm:w-7" />
             </li>
             <li
               class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]"
@@ -219,7 +226,8 @@
       <h2 class="text-center text-5xl font-Ovo">My latest work</h2>
       <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Welcome to my web development portfolio! Explore a collection of
-        projects showcasing my expertise in front-end development.
+        projects showcasing my expertise in
+        <span class="text-lg text-red-900">Full-stack development</span>.
       </p>
 
       <div class="grid grid-cols-auto my-10 gap-5">
@@ -230,14 +238,21 @@
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">Video Streaming</h2>
+              <p class="text-xs text-gray-700">
+                Skills - Java , SpringBoot, React, React-Redux
+              </p>
             </div>
-            <div
-              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+            <a
+              href="https://github.com/Sauravmahajan26/video_Streaming_Backend"
+              target="_blank"
             >
-              <img src="./images//send-icon.png" alt="" class="w-5" />
-            </div>
+              <div
+                class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-red-300 transition"
+              >
+                <img src="./images//send-icon.png" alt="" class="w-5" />
+              </div>
+            </a>
           </div>
         </div>
 
@@ -248,11 +263,13 @@
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">Myntra Clone</h2>
+              <p class="text-xs text-gray-700">
+                Skills - Nodejs, Expressjs, React, React-Redux, Api
+              </p>
             </div>
             <div
-              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-pink-300 transition"
             >
               <img src="./images//send-icon.png" alt="" class="w-5" />
             </div>
@@ -266,11 +283,13 @@
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">Food Delivery App</h2>
+              <p class="text-xs text-gray-700">
+                Skills - Nodejs, Expressjs, React-Redux, RestFul Api
+              </p>
             </div>
             <div
-              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
+              class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-orange-300 transition"
             >
               <img src="./images//send-icon.png" alt="" class="w-5" />
             </div>
@@ -284,8 +303,10 @@
             class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
           >
             <div>
-              <h2 class="font-semibold">Frontend Project</h2>
-              <p class="text-sm text-gray-700">Web Design</p>
+              <h2 class="font-semibold">Employee Mgmt</h2>
+              <p class="text-xs text-gray-700">
+                Skills - HTML, CSS, JavaScript, ReactJs
+              </p>
             </div>
             <div
               class="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition"
